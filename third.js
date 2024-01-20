@@ -21,5 +21,5 @@ let username = prompt("Enter your name");
 let useremail = prompt("Enter your email");
 let userpassword = prompt("Enter your password");
 
-console.log(username , useremail  , userpassword)
+console.log(username , useremail , userpassword)
 
