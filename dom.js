@@ -29,6 +29,16 @@ let newdiv =  document.createElement('img');
 newiv.appendChild(newdiv);
 newdiv.src = "b2.png"
 
+let h5 = document.createElement('h5');
+mydive[0].appendChild(h5);
+
+let img = document.createElement('img');
+h5.appendChild(img);
+img.src = "photo.jpeg"
+
+let div = document.getElementsByTagName('h1');
+console.log(div[0]);
+div[0].innerHTML = "mango";
 
 
 
